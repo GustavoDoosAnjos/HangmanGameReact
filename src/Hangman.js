@@ -89,7 +89,6 @@ class Hangman extends Component {
         <p>guessed wrong: {this.state.nWrong}</p>
         <p className='Hangman-word'>{this.guessedWord()}</p>
         <p className='Hangman-btns'>{this.generateButtons()}</p>
-        <br></br>
         <button onClick={this.handleRestart}><FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon></button>
       </div>
     );
